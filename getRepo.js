@@ -20,6 +20,7 @@ function requestUserRepos(username) {
                 <p><strong>Repositório:</strong> ${data[i].name}</p>
                 <p><strong>Descrição:</strong> ${data[i].description}</p>
                 <p><strong>Estrelas:</strong> ${data[i].stargazers_count}</p>
+                <p><strong>Linguagem:</strong> ${data[i].language}</p>
                 <p><strong>URL:</strong> <a href="${data[i].html_url}">${data[i].html_url}</a></p>
             `);
             ul.appendChild(li);
